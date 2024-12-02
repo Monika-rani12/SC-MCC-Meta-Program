@@ -1,0 +1,39 @@
+./KLEEMA.sh PS-Wtest9-B2 1
+./KLEEMA.sh PS-Wtest9-B2 2
+
+./KLEEMA.sh PS-Wtest9-B3 1
+./KLEEMA.sh PS-Wtest9-B3 2
+
+./KLEEMA.sh PS-Wtest9-B4 1
+./KLEEMA.sh PS-Wtest9-B4 2
+
+./KLEEMA.sh PS-Wtest9-B5 1
+./KLEEMA.sh PS-Wtest9-B5 2
+
+./KLEEMA.sh PS-Wtest9-B6 1
+./KLEEMA.sh PS-Wtest9-B6 2
+
+./KLEEMA.sh PS-Wtest9-B7 1
+./KLEEMA.sh PS-Wtest9-B7 2
+
+
+./KLEEMA.sh PS-P2-L-T-R16-B2 1
+./KLEEMA.sh PS-P2-L-T-R16-B2 2
+
+./KLEEMA.sh PS-P2-L-T-R16-B3 1
+./KLEEMA.sh PS-P2-L-T-R16-B3 2
+
+
+./KLEEMA.sh PS-P2-L-T-R16-B4 1
+./KLEEMA.sh PS-P2-L-T-R16-B4 2
+
+
+./KLEEMA.sh PS-P2-L-T-R16-B5 1
+./KLEEMA.sh PS-P2-L-T-R16-B5 2
+
+
+./KLEEMA.sh PS-P2-L-T-R16-B6 1
+./KLEEMA.sh PS-P2-L-T-R16-B6 2
+
+./KLEEMA.sh PS-P2-L-T-R16-B7 1
+./KLEEMA.sh PS-P2-L-T-R16-B7 2

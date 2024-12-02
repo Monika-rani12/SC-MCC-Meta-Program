@@ -1,0 +1,25 @@
+Input: C-Program (P)
+Output: MScore%
+1. {TS,LC} <- run_KLEE(P)
+2. {M1,M2,..Mn} <- run_Mutator(P)
+3. {M1,M2,..Mk} <- run_DEAD_MUTANT_ELIMINATOR(LC,{M1,M2,..Mn})
+4. {a.out, a1..k.out} <- libkleeRuntest(P,{M1,M2,..Mk})
+5. let a = 1
+6. for x in TS
+7.   ktest_file=x ./a.out > OP-Orig/op-${a}.txt
+8.   a++;
+9. let t=0,k=0
+10 for y in {M1,M2,..Mk}
+11.  t++;
+12.  let r=1
+13.  for z in TS
+14.     ktest_file=z ./a.out_i > OP-t/op-r.txt   
+15.     Bool = diff OP-Orig/op-a.txt OP-t/op-r.txt
+16.     if (Bool == 0) {
+17.       print "Mutant Alive";}
+18.     else {
+19.       k++; print "Mutant Killed";break;}
+20.     r++;
+21. MScore% = k * 100) / t;            
+
+
